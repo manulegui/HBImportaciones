@@ -1,17 +1,165 @@
-/* Error: Can't find stylesheet to import.
- *   ,
- * 6 | @import 'layout/grid';
- *   |         ^^^^^^^^^^^^^
- *   '
- *   scss\style.scss 6:9  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a   \2577 \a 6 \2502  @import 'layout/grid';\d\a   \2502          ^^^^^^^^^^^^^\a   \2575 \a   scss\\style.scss 6:9  root stylesheet";
+.service-card, .product-card {
+  border-radius: 0.5rem;
+  background-color: #DCC5A0;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
 }
+.service-card:hover, .product-card:hover {
+  transform: scale(1.02);
+}
+
+header {
+  background-color: #DCC5A0;
+  padding: 1rem 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+header .navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #8B5E3C;
+}
+header .nav-link {
+  color: #3e2c1c;
+  margin-left: 1rem;
+  transition: color 0.3s;
+}
+header .nav-link:hover {
+  color: #8B5E3C;
+}
+header .navbar-toggler {
+  border: none;
+}
+header .navbar-toggler:focus {
+  box-shadow: none;
+}
+
+footer {
+  background-color: #8B5E3C;
+  color: #fff;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+footer p {
+  margin-bottom: 1rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+footer a {
+  color: #fff;
+  margin: 0 0.5rem;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+footer a:hover {
+  color: #DCC5A0;
+}
+
+.carousel {
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.carousel img {
+  height: 300px;
+  object-fit: cover;
+}
+
+.service-card, .product-card {
+  border-radius: 0.5rem;
+  background-color: #DCC5A0;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+.service-card:hover, .product-card:hover {
+  transform: scale(1.02);
+}
+
+.product-card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.product-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+.product-card .card-body {
+  margin-top: 1rem;
+}
+.product-card .card-body .card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #8B5E3C;
+}
+.product-card .card-body .card-text {
+  font-size: 1rem;
+  color: #3e2c1c;
+}
+
+.quienes-somos {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 0.5rem;
+  padding: 2rem;
+  margin-bottom: 3rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+.quienes-somos h1 {
+  color: #8B5E3C;
+}
+.quienes-somos h2 {
+  color: #8B5E3C;
+  margin-bottom: 0.5rem;
+}
+.quienes-somos p {
+  color: #3e2c1c;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+.quienes-somos section {
+  margin-bottom: 2rem;
+}
+
+.service-card, .product-card {
+  border-radius: 0.5rem;
+  background-color: #DCC5A0;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+.service-card:hover, .product-card:hover {
+  transform: scale(1.02);
+}
+
+.service-card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.service-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+.service-card .card-body {
+  margin-top: 1rem;
+}
+.service-card .card-body .card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #8B5E3C;
+}
+.service-card .card-body .card-text {
+  font-size: 1rem;
+  color: #3e2c1c;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: linear-gradient(to bottom, #ffffff, #DCC5A0);
+  color: #3e2c1c;
+}
+
+/*# sourceMappingURL=style.css.map */

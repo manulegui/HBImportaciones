@@ -3,17 +3,16 @@
 @import 'base/extends';
 
 @import 'layout/header';
-@import 'layout/grid';
-@import 'layout/mediaqueries';
 
-@import 'components/navbar';
+
+
 @import 'components/footer';
 
 @import 'pages/index';
 @import 'pages/productos';
 @import 'pages/quienessomos';
 @import 'pages/servicios';
-@import 'pages/tucompra';
+
 
 body {
     font-family: $fuente-principal;
