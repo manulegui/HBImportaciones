@@ -1,0 +1,29 @@
+header {
+    background-color: $color-secundario; // Un tono cálido
+    padding: 1rem 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  
+    .navbar-brand {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: $color-principal;
+    }
+  
+    .nav-link {
+      color: $color-texto;
+      margin-left: 1rem;
+      transition: color 0.3s;
+  
+      &:hover {
+        color: $color-principal;
+      }
+    }
+  
+    .navbar-toggler {
+      border: none;
+  
+      &:focus {
+        box-shadow: none;
+      }
+    }
+  }

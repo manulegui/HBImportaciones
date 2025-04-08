@@ -1,0 +1,28 @@
+.quienes-somos {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: $borde-redondeado;
+    padding: 2rem;
+    margin-bottom: 3rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    
+    h1 {
+      color: $color-principal;
+    }
+  
+    h2 {
+      color: $color-principal;
+      margin-bottom: 0.5rem;
+    }
+  
+    p {
+      color: $color-texto;
+      line-height: 1.6;
+      margin-bottom: 1rem;
+    }
+  
+    section {
+      margin-bottom: 2rem;
+    }
+  }
+  
+  

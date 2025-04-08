@@ -1,0 +1,31 @@
+@import '../base/variables';
+@import '../base/extends';
+
+.service-card {
+    @extend %tarjeta;
+    @include sombra-suave;
+    text-align: center;
+  
+    img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      border-radius: $borde-redondeado;
+    }
+  
+    .card-body {
+      margin-top: 1rem;
+  
+      .card-title {
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: $color-principal;
+      }
+  
+      .card-text {
+        font-size: 1rem;
+        color: $color-texto;
+      }
+    }
+  }
+  
